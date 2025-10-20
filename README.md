@@ -6,7 +6,7 @@ apt update && apt upgrade -y
 git clone https://github.com/LuxzHost/Ubotpremboy
 ```
 ```
-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
+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
 ```
 ```
 cd Ubotpremboy && screen -S Ubotpremboy
