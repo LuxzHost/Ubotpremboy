@@ -3,22 +3,21 @@ from dotenv import load_dotenv
 
 load_dotenv(".env")
 
-MAX_BOT = int(os.getenv("MAX_BOT", "200"))
+MAX_BOT = int(os.getenv("MAX_BOT", "100"))
 
-DEVS = list(map(int, os.getenv("DEVS", "7638804443").split()))
+DEVS = list(map(int, os.getenv("DEVS", "8308781053").split()))
 
-API_ID = int(os.getenv("API_ID", "20007829"))
+API_ID = int(os.getenv("API_ID", "37660894"))
 
-API_HASH = os.getenv("API_HASH", "d2f61c499f1e6f12ec1f896f14bcb8f7")
+API_HASH = os.getenv("API_HASH", "f3da3fe731705a5d72f8dce6c79c01b5")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8427967883:AAEnPpli_x_3L3Gppxaby00zJi5D0uNH7uU")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8085793293:AAFgrgU3BzCpoDoaGzvhKpNuykNlg7j65F0")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "7638804443"))
+OWNER_ID = int(os.getenv("OWNER_ID", "8308781053"))
 
-BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002312835928").split()))
+BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002125842026 -1002053287763 -1002044997044 -1002022625433 -1002050846285 -1002400165299 -1002416419679 -1001473548283").split()))
 
-RMBG_API = os.getenv("RMBG_API", "a6qxsmMJ3CsNo7HyxuKGsP1o")
+RMBG_API = os.getenv("RMBG_API", "MA2sUZ4HdAfBegL36HiG4BUG")
 
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://zaaytofficial:4MMbEVZLHFBXwbLB@cluster0.mspnbis.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-
-LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT", "-1002532309189"))
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://fizzpamell:fizzpamell@cluster0.9nmhi5m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT", "-4628173231"))
